@@ -1,0 +1,29 @@
+/* Global styles for Aces Premium */
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --accent: #e50914; /* cinematic red */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1, h2, h3, h4 {
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+}
+
+p {
+  margin: 0 0 1rem 0;
+  line-height: 1.6;
+}
